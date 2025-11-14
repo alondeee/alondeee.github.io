@@ -1,0 +1,11 @@
+body {
+  animation: slideShow 20s infinite;
+  background-size: cover;
+}
+
+@keyframes slideShow {
+  0%   { background-image: url('/images/Wallpaper(Galaxies of stars).jpg'); }
+  33%  { background-image: url('/images/Wallpaper(Nebula).jpg'); }
+  66%  { background-image: url('/images/Wallpaper(Galaxies of stars); }
+  100% { background-image: url('/images/Wallpaper(Nebula); }
+}
